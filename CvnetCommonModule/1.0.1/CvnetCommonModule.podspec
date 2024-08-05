@@ -31,7 +31,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '14.0'
 
   # s.source_files = 'CvnetCommonModule/Classes/**/*'
-  s.source_files  = 'CvnetCommonModule/**/*'
+  s.source_files  = 'CvnetCommonModule/Classes/**/*'
   s.dependency 'linphone-sdk', '~> 5.2'
   s.pod_target_xcconfig = {
     'POD_SPEC_REPOS' => 'https://gitlab.linphone.org/BC/public/podspec.git'
